@@ -17,6 +17,8 @@
     "named-imports-order": "any",
     "member-access": false,
     "no-console": false,
-    "jsx-no-bind": false
+    "jsx-no-bind": false,
+    "no-eval": false,
+    "no-unused-variable": false
   }
 }
