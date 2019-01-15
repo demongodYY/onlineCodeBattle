@@ -4,7 +4,7 @@ import * as Chai from 'chai'
 import MonacoEditor from 'react-monaco-editor';
 import testData from '../util/test-data.json'; // test
 
-class CodeEditor extends React.Component {
+class CodeEditorView extends React.Component {
 
   state: any = {
     code: "",
@@ -98,4 +98,4 @@ class CodeEditor extends React.Component {
   }
 }
 
-export default CodeEditor
+export default CodeEditorView

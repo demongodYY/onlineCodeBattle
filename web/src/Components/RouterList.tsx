@@ -1,8 +1,9 @@
 import { BrowserRouter, Route } from 'react-router-dom';
 import * as React from 'react';
 
-import index from '../Pages/index'
-import CodeEditor from '../Pages/CodeEditor'
+import index from '../Pages/index';
+import CodeEditorView from '../Pages/CodeEditorView';
+import BattleRoomView from '../Pages/BattleRoomView';
 
 class RouterList extends React.Component {
   render() {
@@ -10,7 +11,8 @@ class RouterList extends React.Component {
       <BrowserRouter >
         <>
           <Route exact={true} path="/" component={index} />
-          <Route path="/editor" component={CodeEditor} />
+          <Route path="/:roomId/battleroom" component={BattleRoomView} />
+          <Route path="/editor" component={CodeEditorView} />
         </>
       </BrowserRouter >
     )
