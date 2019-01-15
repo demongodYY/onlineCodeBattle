@@ -1,0 +1,16 @@
+{
+    "initCode": "function dojo (input) {\r\n  var result;\r\n  //Write code here\r\n  return result;\r\n}",
+    "testItems": [
+        {
+            "code": "assert.strictEqual(dojo(2), true, '2 should be an even');",
+            "desc": "2应该是偶数，返回 true。",
+            "isPassed": false
+        },
+        {
+            "code": "assert.strictEqual(dojo(3), false, '3 should be an odd');",
+            "desc": "3应该是奇数，返回 false。",
+            "isPassed": false
+        }
+    ],
+    "hint": "编写函数 dojo，判断参数输入的数字的奇偶，如果是偶数返回 true, 反之返回 false"
+}

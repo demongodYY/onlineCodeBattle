@@ -8,7 +8,8 @@
     "exclude": [
       "config/**/*.js",
       "node_modules/**/*.ts",
-      "coverage/lcov-report/*.js"
+      "coverage/lcov-report/*.js",
+      "src/**/*.json"
     ]
   },
   "rules": {
@@ -19,6 +20,7 @@
     "no-console": false,
     "jsx-no-bind": false,
     "no-eval": false,
-    "no-unused-variable": false
+    "no-unused-variable": false,
+    "no-unused-expression": true
   }
 }
