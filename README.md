@@ -8,3 +8,7 @@
 - rx.js
 - monaco editor
 - chai
+## 开发
+- yarn install
+- yarn start
+- 访问 localhost:3000
